@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 const Header = () => {
 return (
 <header className="py-8 xl:py-12 text-white">
@@ -16,11 +17,13 @@ Alif <span className="text-accent">Al Razi</span>
 <div className="hidden xl:flex items-center gap-8">
   <Nav />
   <Link href="/contat">
-  <Button>Hire me</Button>
+  <Button className="bg-accent text-white rounded-full px-4 py-2">Hire me</Button>
   </Link>
 </div>
 
-<div className="xl:hidden"> mobile nav</div>
+<div className="xl:hidden">
+  <MobileNav/>
+</div>
 
 </div>
 </header>
