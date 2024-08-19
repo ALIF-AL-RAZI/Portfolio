@@ -17,7 +17,7 @@ Alif <span className="text-accent">Al Razi</span>
 <div className="hidden xl:flex items-center gap-8">
   <Nav />
   <Link href="/contat">
-  <Button className="bg-accent text-white rounded-full px-4 py-2">Hire me</Button>
+  <Button >Hire me</Button>
   </Link>
 </div>
 
