@@ -19,7 +19,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[500px] xl:h-[500px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute"
          >
           <Image
             src="/assets/alifphoto2.png"
@@ -31,7 +31,7 @@ const Photo = () => {
           />
         </motion.div>
         <motion.svg
-  className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+  className="w-[300px] xl:w-[403px] h-[300px] xl:h-[403px]"
   fill="transparent"
   viewBox="0 0 506 506"
   xmlns="http://www.w3.org/2000/svg"
