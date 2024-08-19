@@ -33,7 +33,7 @@ const Stairs = () => {
               ease: "easeInOut",
               delay: reverseIndex(index) * 0.0005,
             }}
-            className="h-full w-full bg-accent relative"
+            className="h-full w-full bg-stair_transp relative"
             
           />
         );

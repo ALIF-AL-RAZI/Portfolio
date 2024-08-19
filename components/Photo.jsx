@@ -17,7 +17,7 @@ const Photo = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
+            transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
           }}
           className="w-[298px] h-[298px] xl:w-[500px] xl:h-[500px] mix-blend-lighten absolute"
          >
@@ -46,7 +46,7 @@ const Photo = () => {
             }}
 
             transition={{
-                delay: 2.4,
+                delay: 5,
                 duration:20,
                 repeat: Infinity,
                 repeatType: "reverse",
@@ -59,7 +59,7 @@ const Photo = () => {
             viewBox="0 0 506 506"
             xmlns="http://www.w3.org/2000/svg"
             >
-            <motion.circle cx="253" cy="253" r="250" stroke="#00ff99" strokeWidth="4"
+            <motion.circle cx="253" cy="253" r="250" stroke="#eef51e" strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
             initial={{strokeDasharray: "24 10 0 0"}}
