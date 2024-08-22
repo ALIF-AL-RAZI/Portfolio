@@ -9,7 +9,8 @@ return (
 {/* Logo */}
 <Link href="/">
 <h1 className="name text-4xl font-semibold text-white">
-  Alif <span className="text-accent">Al Razi</span>
+  Alif Al Razi
+  {/* <span className="text-accent"></span> */}
 </h1>
 
 
